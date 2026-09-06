@@ -34,3 +34,11 @@ docker kill my_container - более грубый способ завершит
 
 ## Docker Compose
 <h3>Надстройка над докером, позволяет запускать множество контейнеров и маршрутизировать данные между ними</h3>
+### Команды для Docker Compose
+**sudo apt install docker-compose - установить docker-compose<br>
+docker-compose ps - выводит список контейнеров<br>
+docker-compose images - выводит список образов<br>
+docker-compose up -d - запустить контейнеры из файла конфигурации<br>
+docker-compose -f <docker-compose.yml> up -d - тоже самое, но с указанием файла<br>
+docker-compose down - остановить все контейнеры<br>
+docker-compose build - только собрать образы, но не запускать контейнеры**
