@@ -21,7 +21,7 @@ Docker Engine -> Dockerfile -> Build(Docker Image) -> Run(Docker Container) -> W
 <h4>Docker Networking - позволяет организовывать связь между контейнерами Docker. Соединённые с помощью сети контейнеры могут выполняться на одном и том же хосте или на разных хостах</h4>
 
 ## Команды Docker 
-**docker ps - список зап. контейнеров<br>
+**docker ps(--all/--quiet) - список зап. контейнеров<br>
 docker pull - скачать определённый образ или набор образов из Docker Hub<br>
 docker build - собирает образ из Dockerfile<br>
 docker run - запускает контейнер, на основе указанного образа**
