@@ -12,5 +12,5 @@ graph TD;
     Docker Container --> Worked;
 ```
 
-**Dockerfile - инструкция для записи образа<br>Docker Image - образ сервиса<br>Docker C
-й и развёрнутый контейнер**
+**Dockerfile - инструкция для записи образа<br>Docker Image - образ сервиса<br>Docker Container - готовый и развёрнутый контейнер**<br>
+<h3>Docker Daemon - это сервер Docker, который ожидает запросов к API Docker. Демон Docker управляет образами, контейнерами, сетями и потоками</h3>
