@@ -3,6 +3,7 @@
 <b>Docker позволяет создавать контейнеры, автоматищзировать их запуск и развертывание, управляет жизненным циклом. Он позволяет запускать множество контейнеров на одной хост-машине</b><br>
 ## Этапы работы Docker
 Docker Engine -> Dockerfile -> Build(Docker Image) -> Run(Docker Container) -> Worked
+<br>
 ```mermaid
 graph TD;
     Docker Engine --> Dockerfile;
