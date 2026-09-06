@@ -24,4 +24,10 @@ Docker Engine -> Dockerfile -> Build(Docker Image) -> Run(Docker Container) -> W
 **docker ps(--all/--quiet) - список зап. контейнеров<br>
 docker pull - скачать определённый образ или набор образов из Docker Hub<br>
 docker build - собирает образ из Dockerfile<br>
-docker run - запускает контейнер, на основе указанного образа**
+docker run - запускает контейнер, на основе указанного образа<br>
+docker logs - команда для просмотра логов для указанного контейнера<br>
+docker volumes ls - список томов<br>
+docker rm - удаляет один и более контейнеров<br>
+docker rmi - удаляет один и более образов<br>
+docker stop - останавливает один и более контейнеров<br>
+docker kill my_container - более грубый способ завершить процесс**
